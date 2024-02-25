@@ -35,7 +35,7 @@ function openLinkedin() {
 
 btn4.addEventListener("click", openLinkedin);
 
-// Click me button
+// click me button
 const btn5 = document.getElementById("btn3");
 const working = document.getElementById("work");
 
