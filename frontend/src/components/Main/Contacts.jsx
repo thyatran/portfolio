@@ -2,13 +2,18 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaImagePortrait } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoMailOutline } from "react-icons/io5";
+import { IoMail } from "react-icons/io5";
 
 const Contacts = () => {
   return (
     <div className="flex flex-wrap justtify-start gap-4 p-4 sm:gap-6 sm:p-6">
       {/* RESUME */}
-      <a className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-pink-200 to-fuchsia-100 px-4 sm:px-5 text-sm sm:text-base font-medium text-gray-800 duration-500">
+      <a
+        href="https://thy-resume.netlify.app/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-pink-200 to-fuchsia-100 px-4 sm:px-5 text-sm sm:text-base font-medium text-gray-800 duration-500"
+      >
         <div className="relative inline-flex -translate-x-0 items-center transition group-hover:-translate-x-6">
           <div class="absolute translate-x-0 opacity-100 transition group-hover:-translate-x-6 group-hover:opacity-0">
             <FaImagePortrait className="h-5 w-5" />
@@ -107,7 +112,7 @@ const Contacts = () => {
       >
         <div className="relative inline-flex -translate-x-0 items-center transition group-hover:-translate-x-6">
           <div class="absolute translate-x-0 opacity-100 transition group-hover:-translate-x-6 group-hover:opacity-0">
-            <IoMailOutline className="h-5 w-5" />
+            <IoMail className="h-5 w-5" />
           </div>
           <span class="pl-6">Mail</span>
           <div class="absolute right-0 translate-x-12 opacity-0 transition group-hover:translate-x-6 group-hover:opacity-100">
