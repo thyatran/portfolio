@@ -5,14 +5,21 @@ const Projects = () => {
     {
       title: "Art Auction App",
       description: "An online art auction.",
-      techStack: ["Java", "JSP", "JavaScript"],
+      techStack: ["Java", "JSP", "Tomcat Server", "JavaScript", "MySQL"],
       image: "/art-brush.png",
       githubLink: "https://github.com/PrabhnoorKhatkar/CS157A-Team10",
     },
     {
       title: "Chat App",
       description: "A chat app",
-      techStack: ["Java", "React.js", "MySQL"],
+      techStack: [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "React.js",
+        "MySQL",
+        "JWT",
+      ],
       image: "/chat-app.png",
       githubLink: "https://github.com/thyatran/chat-app",
     },
@@ -53,7 +60,7 @@ const Projects = () => {
                 {project.techStack.map((tech, idx) => (
                   <span
                     key={idx}
-                    className="bg-blue-100 text-blue-600 text-xs font-medium px-2 py-1 rounded-full"
+                    className="bg-sky-100 text-sky-600 text-xs font-medium px-2 py-1 rounded-full"
                   >
                     {tech}
                   </span>

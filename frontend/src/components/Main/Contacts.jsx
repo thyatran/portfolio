@@ -12,7 +12,7 @@ const Contacts = () => {
         href="https://thy-resume.netlify.app/resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-pink-200 to-fuchsia-100 px-4 sm:px-5 text-sm sm:text-base font-medium text-gray-800 duration-500"
+        className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-pink-200 to-fuchsia-100px-4 sm:px-5 text-sm sm:text-base font-medium text-gray-800 duration-500"
       >
         <div className="relative inline-flex -translate-x-0 items-center transition group-hover:-translate-x-6">
           <div class="absolute translate-x-0 opacity-100 transition group-hover:-translate-x-6 group-hover:opacity-0">

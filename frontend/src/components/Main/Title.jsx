@@ -8,7 +8,8 @@ const Title = () => {
         <span className="absolute top-0 right-0 w-5 h-5 bg-green-500 rounded-full border-2 border-white"></span>
       </div>
 
-      <h1 className="p-10 text-6xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
+      <h1 className="p-10 text-6xl font-extrabold bg-gradient-to-r from-pink-500 via-fuchsia-400 to-violet-400 text-transparent bg-clip-text">
+        {/* from-pink-500 via-purple-500 to-indigo-500 */}
         Hi! I'm Thy
       </h1>
     </div>
