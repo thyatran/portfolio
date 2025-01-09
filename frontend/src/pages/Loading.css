@@ -1,0 +1,59 @@
+/* Centering the loading container */
+.turtle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 50px;
+  animation: slow-move 3s linear infinite;
+  transform: translateY(-50%) scaleX(-1);
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: none;
+  font-family: Arial;
+}
+
+/* Progress bar styling */
+.loading-bar {
+  position: relative;
+  width: 80%;
+  height: 50px;
+  background: linear-gradient(
+    to right,
+    #fbcfe8,
+    #f5d0fe
+  ); /* Pink to fuchsia gradient */
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+/* Keyframes for smooth movement */
+@keyframes slow-move {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Loading text */
+.loading-text {
+  font-size: 16px;
+  font-weight: 900;
+  background: linear-gradient(to right, #f472b6, #d946ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .loading-text {
+    font-size: 20px;
+  }
+}
