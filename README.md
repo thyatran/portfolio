@@ -18,6 +18,8 @@ Welcome to my personal portfolio website. This site showcases my work, skills, a
 | Lavender       | ![#a78bfa](https://via.placeholder.com/10/a78bfa?text=+)` #a78bfa` |
 | Light Lavender | ![#fae8ff](https://via.placeholder.com/10/fae8ff?text=+) `#fae8ff` |
 | Green          | ![#22c55e](https://via.placeholder.com/10/22c55e?text=+) `#22c55e` |
+| Sky            | ![#e0f2fe](https://via.placeholder.com/10/e0f2fe?text=+) `#e0f2fe` |
+| Dark Sky       | ![#0284c7](https://via.placeholder.com/10/0284c7?text=+) `#0284c7` |
 
 ## Deployment
 
